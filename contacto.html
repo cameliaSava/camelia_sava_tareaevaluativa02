@@ -1,0 +1,81 @@
+<!--
+Autor: Camelia Elena Sava 
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea evaluativa  - Sitio web 
+Autoevaluación: https://drive.google.com/drive/folders/1P_fIoD0C73-o_3nMSpA1HGkCv6ICx36F?usp=drive_link
+Resumen: Defino la cabecera(logo, barra de navegacion, titulo) que mantengo en todas las paginas html creadas lo mismo con el footer.
+        Como la empresa, aunque es de verdad, pero no tiene instagram, facebook .. llevo los enlaces a las paginas de sign up
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head class="header">
+      <meta charset="utf-8">
+      <title>Empresa de electricidad y telecomunicaciones</title>
+      <link rel="stylesheet" href="css/estilos.css">
+  </head>
+    <header class="header"> 
+        <img class="logo" src="img/logo_electroled.png" alt="logo_electroled">
+        <h1 class="header-h1">Montajes Electricos Electroled</h1> 
+                  <!-- Barra de navegación-->
+        <nav class="nav">
+             <a href="index.html">Inicio</a>
+             <a href="servicios.html">Servicios/Proyectos</a>
+             <a href="noticias.html">Noticias</a>
+             <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <button class="btn-ver-mas" onclick="window.location.href='servicios.html'" >Volver al inicio</button>
+    <body>
+        <article id="article-contacto">
+            <form id="form2" action="mailto:fact.electroled@gmail.com" method="get">
+                <fieldset>
+                    <legend><h3>Contacto</h3></legend>
+                        <label for="fnamenom2">Nombre y Apellido</label><br>
+                        <input type="text" id="fnamenom2" name="nombre2"  value="Nombre y Apellido"><br>
+                        <label for="fnameapel2">Email:</label><br>
+                        <input type="text" id="fnameapel2" name="apellido2" value="Email"><br>
+                    
+                       
+    
+                    <label for="Solucitud">Solicitud</label><br>
+                    <select id="mod2" name="Solicitud">
+                        <option value="Informacion">Información</option>
+                        <option value="Solicitud de presupuesto">Solicitud de presupuesto</option>
+                        <option value="Trabaja con nosotros">Trabaja con nosotros</option>
+                    </select>
+                
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </article>
+
+        
+     
+
+        <footer class="footer">
+            <aside>
+                <a href="https://www.facebook.com/home.php" target="_blank" rel="noopener noreferrer">
+                    <img src="img/logo-facebook.png" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="img/logo-instagram.png" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A39424049&keywords=montajes%20electricos%20electroled%20sl&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=4725c1bd-235e-4da9-b9ca-34e799d911c7&sid=nQ7&spellCorrectionEnabled=true" target="_blank" rel="noopener noreferrer">
+                    <img src="img/logo-linkedin.png" alt="linkedin" class="social-icon">
+                </a>
+            </aside>
+                <nav id="nav-footerS">
+                    <a>Montajes Eléctricos Electroled, S.L</a>
+                    <a href="https://www.bing.com/search?q=Calle+Arane+9%2C+Parque+48012+Bilbao&form=ANNTH1&refig=7ec0dd6c13a14970adaf95f1685ad7bf&pc=ACTS" target="_blank">Calle Arane 9, Parque 48012 Bilbao</a>
+                    <img id="img-footer" src="img/ubicacion .png" alt="Calle Arane 9, Parque 48012 Bilbao">
+                    <a>Teléfono: 946 181 070 / 690 99 40 48</a>
+                    <a>Email: fact.electroled@gmail.com</a>
+                </nav>
+        </footer>
+    </body>
+    
+    <a class="footer-a">Autoría y licencias: Página web realizada por Camelia Elena Sava
+        con fines educativos. Todos los derechos de las imáge
+</html>

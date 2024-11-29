@@ -1,0 +1,277 @@
+/* Estilo general */
+body {
+    margin-top: 80px; /* Ajusta este valor según la altura del header */
+    background-image: url('camelia_sava_LMSGI02_TareaEvaluativa02\img\viviendas.jpg');
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Estilo para el header */
+.header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid rgb(7, 92, 104); /* Borde inferior decorativo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un efecto flotante */
+    backdrop-filter: blur(5px);
+
+}
+
+.logo {
+    flex-shrink: 0;
+    border-radius: 50%; /* Imagen redondeada */
+    width: 80px; /* Ajustar el tamaño a algo más compacto */
+}
+
+.header-h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 2px;
+
+}
+
+/* Barra de navegación */
+nav {
+    color: blue;
+    gap: 10px; /*Espacio entre enlaces*/
+    padding-right: 2px;
+    display: flex;
+}
+
+nav a {
+    color: rgb(26, 25, 25);
+    text-decoration: none;
+    padding: 10px 15px; /* Espaciado más uniforme */
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgba(58, 96, 146, 0.2);
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.contenedor-section {
+    width: 80%; 
+    margin: 20px auto; 
+  
+}
+
+.contenedor-article {
+    background-color: white;
+    width: 80%;
+    max-width: 600px; 
+    font-family: 'Lucida Sans', sans-serif;
+    margin: 20px auto; 
+    padding: 15px 20px; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Estilo para los encabezados */
+.contenedor h2 {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px; /* Espaciado inferior */
+    color: rgb(9, 109, 122); /* Color destacado */
+    text-align: center;
+}
+
+/* Imagen flotante */
+.imagen-float {
+    width:400px;
+    float:right;
+    border-radius: 10px; /* Bordes ligeramente redondeados */
+    margin: 10px 0 10px 20px;
+}
+
+/* Estilo general del footer */
+.footer {
+    background-color: #e6f2ff;
+}
+
+
+.footer-a{
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.5; 
+    
+}
+
+/* Redes sociales */
+.footer-social {
+    margin-bottom: 10px; /* Espaciado entre las redes sociales y el texto */
+
+}
+
+.footer-social a {
+    margin: 0 10px; /* Espaciado horizontal entre los iconos */
+}
+
+.social-icon {
+    /* Tamaño uniforme para los iconos */
+    width: 30px; 
+    /* Efecto suave al pasar el ratón */
+    transition: transform 0.3s ease; 
+    /* Para redondear los losgos*/
+    border-radius: 70%;
+}
+
+/* Agranda el icono de redes sociales, ligeramente al pasar el ratón */
+.social-icon:hover {
+    transform: scale(1.2); 
+}
+
+#zorrozaurre {
+    width: 500px;
+	float: center;
+    border-radius: 10px; /* Bordes ligeramente redondeados */
+    margin: 10px 0 10px 20px;
+}
+/*Estilos para la section obras ejecucion*/
+
+
+/* Botón "Ver más" */
+.btn-ver-mas {
+    display: inline-block; /* Se comporta como botón */
+    background-color: rgb(25, 136, 151); /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 5px 10px; /* Espaciado interno */
+    text-decoration: none; /* Quita el subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+ ul h2{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px; /* Espaciado inferior */
+    color: rgb(9, 109, 122); /* Color destacado */
+    flex: auto;
+
+ }
+
+/* Estilos pagina servicios descripcion */
+#principal {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    align-items: center; 
+    padding: 20px; 
+}
+/* Cada fila de servicio */
+.servicio {
+    display: flex;
+    flex-direction: row; /* Alinea la imagen y el texto horizontalmente */
+    align-items: center; /* Centra verticalmente la imagen con el texto */
+    gap: 50px; /* Espaciado entre imagen y texto */
+    max-width: 100%; /* Limita el ancho máximo del contenido */
+    width: 100%; /* Asegura que el contenido se ajuste al contenedor */
+}
+
+/* Estilos para que el texto rodee a la imagen. Propiedad float */
+.imagen-float2 {
+    width: 200px; /* Tamaño de la imagen */
+    flex-shrink: 0; 
+    border-radius: 10px; 
+}
+/* Párrafos estilo*/
+.servicio p {
+    margin: 0; 
+    font-size: 1rem; 
+    line-height: 1.5; 
+    text-align: justify; 
+    color: #333; 
+}
+
+h3 {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px; /* Espaciado inferior */
+    color: rgb(9, 109, 122); /* Color destacado */
+    text-align: center;
+}
+
+#nav-footer {
+    border-radius: 5px; 
+    padding: 20px; 
+    font-size: 0.9rem; 
+    margin: 10px auto; 
+    max-width: 800px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+}
+#nav-footer a {
+    color: #fff; 
+    font-size: 0.8rem; 
+    text-align: center; 
+    display: block; 
+    padding: 5px 0; 
+    transition: color 0.3s ease; 
+}
+#img-footer {
+    width: 40px; 
+    margin: 10px 0;
+    display: block; 
+}
+/*Posicionamiento para parrafos en la pagina de servicios */
+#p-servicios {
+    display: flexbox;
+    align-content: space-around;
+    align-content: stretch;
+}
+
+/* Estilos para la página contacto.html*/
+#article-contacto {
+    background-image: url('../img/logo_electroled.png');
+    background-size: cover; /* La imagen cubre todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-color: #00A1C0; /* Fondo de respaldo */
+    color: #d3dde6; /* Texto claro */
+    display: flex; /* Flexbox para alinear contenido */
+    flex-direction: column; /* Alinea elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    text-align: center;
+    width: 50%; /* Amplía el contenedor horizontalmente */
+    height: 80px; /* Estrecha la altura */
+    margin: 80px auto; /* Centra horizontalmente y agrega espacio superior/inferior */
+    border-radius: 10px; /* Opcional: Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra decorativa */
+    padding: 80px; /* Espaciado interno para el contenido */
+}
+
+form input:focus,
+form select:focus {
+    outline: none;
+    border-color: #00A1C0; /* Color azul al enfocar */
+    box-shadow: 0px 0px 4px rgba(0, 161, 192, 0.5);
+}
+
+form input[type="submit"] {
+    background-color: #00A1C0;
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
